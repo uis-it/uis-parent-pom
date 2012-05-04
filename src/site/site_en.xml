@@ -12,7 +12,7 @@
 	<body>
 		<links>
 			<item name="Projects" href="http://source01.uis.no/maven-site"/>
-			<item name="SVN" href="http://source01.uis.no/svn"/>
+			<item name="Code" href="http://source01.uis.no/git"/>
 			<item name="Maven Repo" href="https://source01.uis.no/archiva"/>
 		</links>
 		

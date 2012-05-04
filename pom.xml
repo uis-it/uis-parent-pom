@@ -13,9 +13,9 @@
 	</organization>
 	<inceptionYear>2007</inceptionYear>
 	<scm>
-		<connection>scm:svn:http://source01.uis.no/repos/portal/parent-pom/trunk/</connection>
-		<developerConnection>scm:svn:https://source01.uis.no/repos/portal/parent-pom/trunk/</developerConnection>
-		<url>http://source01.uis.no/cgi-bin/viewvc.cgi/portal/parent-pom/trunk/</url>
+		<connection>scm:git:git://source01.uis.no/parent-pom.git</connection>
+		<developerConnection>scm:git:git@152.94.3.85:parent-pom.git</developerConnection>
+		<url>http://source01.uis.no/git/?p=parent-pom.git</url>
 	</scm>
 	
 	<issueManagement>
