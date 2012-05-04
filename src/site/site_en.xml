@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project name="${project.name}">
+	<version position="right"/>
+	<bannerLeft>
+		<name>${project.name} ${project.version}</name>
+	</bannerLeft>
+	<bannerRight>
+		<src>./images/logos/uis_logo.gif</src>
+		<alt>UiS</alt>
+		<href>http://www.uis.no</href>
+	</bannerRight>
+	<body>
+		<links>
+			<item name="Projects" href="http://source01.uis.no/maven-site"/>
+			<item name="SVN" href="http://source01.uis.no/svn"/>
+			<item name="Maven Repo" href="https://source01.uis.no/archiva"/>
+		</links>
+		
+		<menu name="${project.name}">
+			<item name="Introduction" href="index.html"/>
+		</menu>
+		<menu ref="reports" inherit="top"/>
+	</body>
+	<skin>
+		<groupId>no.uis.maven</groupId>
+		<artifactId>uis-skin</artifactId>
+		<version>1.0.7</version>
+	</skin>
+</project>
