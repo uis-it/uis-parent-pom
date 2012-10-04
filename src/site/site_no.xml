@@ -19,7 +19,7 @@
 		<menu name="${project.name}">
 			<item name="Oversikt" href="index.html"/>
 		</menu>
-		<menu ref="reports" inherit="top"/>
+		<menu ref="reports"/>
 	</body>
 	<skin>
 		<groupId>no.uis.maven</groupId>
