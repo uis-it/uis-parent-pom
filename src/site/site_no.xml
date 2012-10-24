@@ -20,6 +20,7 @@
 			<item name="Oversikt" href="index.html"/>
 		</menu>
 		<menu ref="reports"/>
+    
 	</body>
 	<skin>
 		<groupId>no.uis.maven</groupId>

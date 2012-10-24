@@ -14,7 +14,7 @@
 		<inceptionYear>2007</inceptionYear>
 		<scm>
 				<connection>scm:git:git://source01.uis.no/parent-pom.git</connection>
-				<developerConnection>scm:git:git@152.94.3.85:parent-pom.git</developerConnection>
+				<developerConnection>scm:git:ssh://git@152.94.3.85/parent-pom.git</developerConnection>
 				<url>http://source01.uis.no/git/?p=parent-pom.git</url>
 		</scm>
 
@@ -47,7 +47,7 @@
 								<plugin>
 										<groupId>org.apache.maven.plugins</groupId>
 										<artifactId>maven-war-plugin</artifactId>
-										<version>2.2</version>
+										<version>2.3</version>
 								</plugin>
 								<plugin>
 										<groupId>org.codehaus.gmaven</groupId>
@@ -57,7 +57,7 @@
 								<plugin>
 										<groupId>org.apache.maven.plugins</groupId>
 										<artifactId>maven-site-plugin</artifactId>
-										<version>3.1</version>
+										<version>3.2</version>
 								</plugin>
 								<plugin>
 										<groupId>org.codehaus.mojo</groupId>
@@ -77,7 +77,7 @@
 								<plugin>
 										<groupId>org.apache.maven.plugins</groupId>
 										<artifactId>maven-source-plugin</artifactId>
-										<version>2.2</version>
+										<version>2.2.1</version>
 								</plugin>
 								<plugin>
 										<groupId>org.apache.maven.plugins</groupId>
@@ -138,7 +138,7 @@
 								<artifactId>maven-eclipse-plugin</artifactId>
 								<configuration>
 										<downloadSources>true</downloadSources>
-										<wtpversion>1.5</wtpversion>
+										<wtpversion>3.4.1</wtpversion>
 								</configuration>
 						</plugin>
 						<plugin>
@@ -193,8 +193,8 @@
 														<report>project-team</report>
 														<report>cim</report>
 														<report>scm</report>
-														<!--report>javadoc</report -->
-														<!--report>jxr</report -->
+														<!--report>javadoc</report-->
+														<!--report>jxr</report-->
 														<!-- report>surefire</report -->
 														<!-- report>mailing-list</report -->
 														<!-- report>issue-tracking</report -->
