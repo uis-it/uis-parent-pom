@@ -4,8 +4,19 @@
   <artifactId>parent-pom</artifactId>
   <packaging>pom</packaging>
   <version>2.0.2-SNAPSHOT</version>
+  <parent>
+    <groupId>org.sonatype.oss</groupId>
+    <artifactId>oss-parent</artifactId>
+    <version>7</version>
+  </parent>
   <name>parent-pom</name>
   <description>Parent POM for all UiS artifacts.</description>
+  <licenses>
+    <license>
+      <name>Apache Software License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+    </license>
+  </licenses>
   <url>http://forge.uis.no/projects/uis-parent-pom</url>
   <organization>
     <name>Universitet i Stavanger</name>
