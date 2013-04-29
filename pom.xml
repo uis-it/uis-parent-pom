@@ -3,7 +3,7 @@
   <groupId>no.uis</groupId>
   <artifactId>parent-pom</artifactId>
   <packaging>pom</packaging>
-  <version>2.0.1-SNAPSHOT</version>
+  <version>2.0.0-SNAPSHOT</version>
   <name>parent-pom</name>
   <description>Parent POM for all UiS artifacts.</description>
   <url>http://forge.uis.no/projects/uis-parent-pom</url>
@@ -192,14 +192,6 @@
     </plugins>
   </reporting>
 
-  <distributionManagement>
-    <site>
-      <id>forge.uis.no</id>
-      <url>dav:https://forge.uis.no/maven-site/uis-parent-pom</url>
-    </site>
-
-  </distributionManagement>
-
   <developers>
     <developer>
       <id>2906430</id>
@@ -221,8 +213,8 @@
       <id>uis</id>
       <distributionManagement>
         <site>
-          <id>forge.uis.no</id>
-          <url>dav:https://forge.uis.no/maven-site/uis-parent-pom</url>
+          <id>code01.uis.no</id>
+          <url>dav:https://code01.uis.no/maven-site/uis-parent-pom</url>
         </site>
 
         <repository>
