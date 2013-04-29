@@ -5,25 +5,20 @@
 		<name>${project.name} ${project.version}</name>
 	</bannerLeft>
 	<bannerRight>
-		<src>./images/logos/uis_logo.gif</src>
+		<src>images/uis_logo.gif</src>
 		<alt>UiS</alt>
 		<href>http://www.uis.no</href>
 	</bannerRight>
 	<body>
 		<links>
-			<item name="Projects" href="http://source01.uis.no/maven-site"/>
-			<item name="Code" href="http://source01.uis.no/git"/>
-			<item name="Maven Repo" href="https://source01.uis.no/archiva"/>
+			<item name="UiS Forge" href="http://forge.uis.no/projects/uis-parent-pom"/>
 		</links>
 		
-		<menu name="${project.name}">
-			<item name="Introduction" href="index.html"/>
-		</menu>
 		<menu ref="reports"/>
 	</body>
 	<skin>
-		<groupId>no.uis.maven</groupId>
-		<artifactId>uis-skin</artifactId>
-		<version>1.0.7</version>
+		<groupId>org.apache.maven.skins</groupId>
+		<artifactId>maven-fluido-skin</artifactId>
+		<version>1.3.0</version>
 	</skin>
 </project>
