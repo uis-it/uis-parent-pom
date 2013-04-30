@@ -227,17 +227,6 @@
           <id>code01.uis.no</id>
           <url>dav:https://code01.uis.no/maven-site/uis-parent-pom</url>
         </site>
-
-        <repository>
-          <id>internal</id>
-          <url>https://source01.uis.no/archiva/repository/internal/</url>
-        </repository>
-
-        <snapshotRepository>
-          <id>snapshots</id>
-          <url>https://source01.uis.no/archiva/repository/snapshots/</url>
-        </snapshotRepository>
-
       </distributionManagement>
     </profile>
     <profile>
