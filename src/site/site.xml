@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project name="${project.name}">
-	<version position="right"/>
+	<version position="left"/>
 	<bannerLeft>
-		<name>${project.name} ${project.version}</name>
+		<name>${project.groupId}:${project.artifactId}</name>
 	</bannerLeft>
 	<bannerRight>
 		<src>images/uis_logo.gif</src>
