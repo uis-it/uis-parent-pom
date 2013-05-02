@@ -11,7 +11,7 @@
 	</bannerRight>
 	<body>
 		<links>
-			<item name="UiS Forge" href="http://forge.uis.no/projects/uis-parent-pom"/>
+			<item name="UiS Forge" href="http://forge.uis.no"/>
 		</links>
 		
 		<menu ref="reports"/>
