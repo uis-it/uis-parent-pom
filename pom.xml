@@ -152,11 +152,11 @@
             <goals>
               <goal>attach-descriptor</goal>
             </goals>
+            <configuration>
+              <locales>en</locales>
+            </configuration>
           </execution>
         </executions>
-        <configuration>
-          <locales>en</locales>
-        </configuration>
       </plugin>
     </plugins>
   </build>
