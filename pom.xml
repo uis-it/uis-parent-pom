@@ -232,24 +232,5 @@
         </site>
       </distributionManagement>
     </profile>
-    <profile>
-      <id>uis_build</id>
-      <repositories>
-        <repository>
-          <releases>
-            <enabled>false</enabled>
-          </releases>
-          <snapshots>
-            <enabled>true</enabled>
-            <updatePolicy>always</updatePolicy>
-            <checksumPolicy>warn</checksumPolicy>
-          </snapshots>
-          <id>build01.uis.no</id>
-          <name>UiS Jenkins snapshots</name>
-          <url>http://build01.uis.no/jenkins/plugin/repository/everything/</url>
-        </repository>
-      </repositories>
-    
-    </profile>
   </profiles>
 </project>
