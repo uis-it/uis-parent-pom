@@ -24,14 +24,14 @@
   </organization>
   <inceptionYear>2007</inceptionYear>
   <scm>
-    <connection>scm:git:git://forge.uis.no/uis-parent-pom.git</connection>
-    <developerConnection>scm:git:ssh://git@forge.uis.no/uis-parent-pom.git</developerConnection>
-    <url>http://forge.uis.no/projects/uis-parent-pom/repository</url>
+    <connection>scm:git:git://github.com/uis-it/uis-parent-pom.git</connection>
+    <developerConnection>scm:git:ssh://git@github.com/uis-it/uis-parent-pom.git</developerConnection>
+    <url>https://github.com/uis-it/uis-parent-pom</url>
   </scm>
 
   <issueManagement>
-    <system>ChiliProject</system>
-    <url>http://forge.uis.no/projects/uis-parent-pom/issues</url>
+    <system>Github</system>
+    <url>https://github.com/uis-it/uis-parent-pom/issues</url>
   </issueManagement>
   <ciManagement>
     <system>jenkins</system>
